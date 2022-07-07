@@ -203,10 +203,11 @@ img {
   text-transform: uppercase;
   font-weight: 500;
   transition: 0.3s;
+  border: none;
 }
 
 .btn:hover {
-  background-color: #FF9F29;
+  background-color: #F15412;
 }
 
 .btn.small {
@@ -274,7 +275,7 @@ nav .container {
 
 .links a.active:hover {
   color: var(--light-one);
-  background-color: #6b44e0;
+  background-color: #F15412;
 }
 
 .hamburger-menu {
