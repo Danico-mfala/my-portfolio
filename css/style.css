@@ -456,7 +456,7 @@ header .circle {
   font-weight: 800;
   line-height: 1;
   color: var(--main-color);
-  opacity: 0.025;
+  opacity: 0.13;
 }
 
 .card:after {
@@ -479,7 +479,7 @@ header .circle {
 }
 
 .icon {
-  width: 40%;
+  width: 70%;
   margin-bottom: 1.7rem;
 }
 
@@ -1280,7 +1280,7 @@ header .circle {
 }
 
 .input-arrow:hover {
-  background-color: #6b44e0;
+  background-color: #F15412;;
 }
 
 .focus {
@@ -1363,7 +1363,7 @@ header .circle {
 }
 
 .back-btn:hover {
-  background-color: #6b44e0;
+  background-color: #F15412;;
 }
 
 .back-btn-wrap:before {
@@ -2203,3 +2203,339 @@ header .circle {
 }
 
 /* End Responsive */
+.popup{
+  width: 400px;
+  background: #fff;
+  border-radius: 6px;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%,-50%)scale(0.1);
+  text-align: center;
+  padding: 0 30px 30px;
+  color: #333;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+
+}
+.open-popup{
+  visibility: visible;
+  top:50%;
+  transform:translate(-50%,-50%) scale(1) ;
+}
+
+
+.popup img{
+  width: 100px;
+  margin-top: -50px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+.popup h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 30px 0 10px;
+}
+.popup button{
+  width: 100%;
+  margin-top: 50px;
+  padding: 10px 0;
+  background: #6fd649;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow:  0 2px 5px rgba(0, 0, 0, 0.2);
+
+}
+.wrapper2{
+  display: flex;
+}
+
+.wrapper2 .static-txt{
+  color: var(--dark-two);
+  font-size: 60px;
+  font-weight: 400;
+}
+.wrapper2 .dynamic-txts{
+  margin-left: 15px;
+  line-height: 90px;
+  height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li {
+  list-style: none;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 60px;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+
+}
+@keyframes slide{
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li::after{
+  content: "";
+  position:absolute ;
+  background-color:white;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border-left: 2px solid var(--main-color);
+  animation: typing 3s steps(10) infinite ; 
+}
+
+@keyframes typing {
+
+  40%,60%{
+    left: calc(100% + 30px);
+  }
+  100%{
+    left:0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

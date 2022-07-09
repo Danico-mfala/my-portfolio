@@ -99,3 +99,12 @@ var mySwiper = new Swiper(".swiper-container", {
     nextEl: ".swiper-button-next",
   },
 });
+
+let popup = document.getElementById("popup");
+
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+function closePopup(){
+  popup.classList.add("open-popup");
+}
